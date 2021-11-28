@@ -1,0 +1,122 @@
+body {
+
+background-image:url(stadium2.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+
+}|
+#MENU{
+	font-weight:bold;
+	padding:0px;
+	margin:0px;
+	}
+	#menu li{
+		background-color:#003333;
+		border-style:solid;
+		border-color:#336633;
+		float:left;
+		display: block;
+		cursor:pointer;
+		width:10vw;
+		color:green;
+	    }
+	#menu li li{
+		float:none;
+		
+	    }
+	#menu li li a{
+		text-decoration:none;
+		color:black;
+		
+		}
+	#menu li ul{
+		 display:none;
+		 position:absolute;
+		 padding:0px;
+		}
+		#menu li:hover ul{
+			display:block; 
+			color: yellow;
+		}
+	#menu li li:hover{
+		 background-color:#8CE27F;
+		
+		}
+	a{
+	text-decoration:none;
+	color:green;
+		
+	}
+	
+	a:hover{
+	text-decoration:none;
+	color: yellow;
+	font-weight:bold;
+	}
+	#div{
+		position:relative;
+		top:20%;
+		left:15%;
+	}
+	#div1{
+		border-style:solid;
+		border-color:green;
+		position:absolute;
+		top:50%;
+		left:50%;
+		color:white;
+	}
+	#div4{
+		font-size:50px;
+		color:#006633;
+		position:absolute;
+		top:15%;
+		left:40%;
+	}
+	#div3{
+		text-decoration:none;
+	color:green;
+	position:absolute;
+		top:90%;
+	}
+		
+	.pilka{
+		z-index:100%;
+		display: block;
+        margin: auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px 1px grey;
+        width: 1200px;
+        height: 700px; 
+		
+		
+	
+	}
+	#oldtraford{
+		position:absolute;
+		top:15%;
+		left:31%
+	}
+		#div6{
+		text-decoration:none;
+	color:green;
+	position:absolute;
+		top:70%;
+		}
+		
+	#div7{
+		font-size:50px;
+		color:#006633;
+		position:absolute;
+		top:8%;
+		left:38%;
+	}
+	#form{
+		position:absolute;
+		top:35%;
+		left:40%
+	}		
+	
+			
+		
+	
